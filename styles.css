@@ -71,7 +71,7 @@ p {
   left: 0;
   width: 70%;
   height: 100%;
-  background-image: url("/assests/wave-haikei.svg");
+  background-image: url("assests/wave-haikei.svg");
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
@@ -80,7 +80,7 @@ p {
 .cover-image {
   width: 30%;
   height: 100%;
-  background-image: url("/assests/Photos/pexels-natallia-photo-17119283.jpg");
+  background-image: url("assests/Photos/pexels-natallia-photo-17119283.jpg");
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
