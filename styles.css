@@ -1,0 +1,174 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+  color: black;
+}
+
+section {
+  padding: 80px 0;
+}
+
+.topbar {
+  font-size: 12px;
+  background-color: #181d23;
+  padding-right: 25px;
+}
+
+.navbar {
+  font-size: 14px;
+  color: black;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.btn {
+  border-radius: 0;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: background 0.3s ease;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-brown {
+  color: #ffffff;
+  background-color: #ad835d;
+}
+
+.btn-brown:hover {
+  background: #e4ba95;
+}
+
+.hero-text {
+  font-family: "Playfair Display", serif;
+  color: white;
+  font-size: 55px;
+  font-weight: 400;
+  width: 90%;
+}
+
+.hero-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 700px;
+}
+
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  background-image: url("/assests/wave-haikei.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.cover-image {
+  width: 30%;
+  height: 100%;
+  background-image: url("/assests/Photos/pexels-natallia-photo-17119283.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .hero-text,
+  .hero-background,
+  .cover-image {
+    width: 100%;
+    font-size: 35px;
+  }
+}
+
+.section-name {
+  color: #ad835d;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+}
+
+.section-heading {
+  color: #181d23;
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.photo {
+  width: 100%;
+  height: auto;
+}
+
+.gutter {
+  padding: 5px;
+}
+
+.location-tags_icons {
+  font-size: 30px;
+}
+
+.location-tags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 0 20px;
+  gap: 8px;
+
+  color: #ad835d;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #ad835d;
+  border-radius: 0;
+}
+
+.nav-pills a {
+  color: #ad835d;
+}
+
+.footer-tiles{
+  display: flex;
+  padding: 29px 76px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex: 1 0 0;
+
+  color: #AD835D;
+  font-weight: 500;
+  font-size: 16px;
+}
